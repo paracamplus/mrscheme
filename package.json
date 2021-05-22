@@ -1,25 +1,48 @@
 {
     "name": "mrscheme",
-    "version": "1.0.0",
-    "description": "Scheme subset interpreter in javascript.
-Written by Frederic Peschanski, 
-used by the MOOC « Programmation récursive »
-and npm-ized by Christian Queinnec. ",
+    "version": "1.0.1",
+    "description": "Scheme didactic subset interpreter in JavaScript.",
     "module": "index.mjs",
     "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Frederic Peschanski",
-    "license": "ISC",
+    "keywords": [
+        "Scheme",
+        "CodeGradX",
+        "Infrastructure for mechanically grading programs",
+        "Paracamplus"
+    ],
+    "author": {
+        "name": "Frédéric Peschanski",
+        "email": "frederic.peschanski@lip6.fr",
+        "url": "https://www-apr.lip6.fr/~pesch/HomePage/homepage.html"
+    },
+    "contributors": [
+        {
+            "name": "Christian Queinnec",
+            "email": "Christian.Queinnec@CodeGradX.org",
+            "url": "https://christian.queinnec.org/"
+        }
+    ],
+    "license": "MIT",
     "files": [
         "index.mjs",
         "lib/lexer101.mjs",
         "lib/parser101.mjs",
-          "lib/schemeNumber101.mjs",
-            "lib/biginteger101.mjs",
+        "lib/schemeNumber101.mjs",
+        "lib/biginteger101.mjs",
         "lib/prims101.mjs",
-          "type101.mjs",
+        "type101.mjs",
         "lib/numericaltower101.mjs",
         "lib/message101.mjs",
         "lib/eval101.mjs"
-    ]
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/paracamplus/mrscheme"
+    },
+    "bugs": {
+        "url": "https://github.com/paracamplus/mrscheme/issues"
+    },
+    "homepage": "https://github.com/paracamplus/mrscheme#readme"
 }

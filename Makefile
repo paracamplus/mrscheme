@@ -1,11 +1,15 @@
-# Time-stamp: "2021-05-22 16:44:38 queinnec"
+# Time-stamp: "2021-05-22 18:16:11 queinnec"
 # Create a package for MrScheme
 
 work : nothing 
 clean :: cleanMakefile
 
 publish :
-
+	git status .
+	-git commit -m "NPM publication `date`" .
+	git push
+	npm publish .
+	sleep 10 ; npm install -g mrscheme@`jq -r .version < package.json`
 
 # ###################################################### once
 # See Servers/w.scm/Paracamplus-FW4EX-SCM/Templates/mrscheme.tt
