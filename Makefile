@@ -1,4 +1,4 @@
-# Time-stamp: "2021-05-22 18:16:11 queinnec"
+# Time-stamp: "2021-05-22 20:59:13 queinnec"
 # Create a package for MrScheme
 
 work : nothing 
@@ -8,6 +8,7 @@ publish :
 	git status .
 	-git commit -m "NPM publication `date`" .
 	git push
+	npm version patch
 	npm publish .
 	sleep 10 ; npm install -g mrscheme@`jq -r .version < package.json`
 
