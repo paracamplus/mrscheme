@@ -1,0 +1,25 @@
+{
+    "name": "mrscheme",
+    "version": "1.0.0",
+    "description": "Scheme subset interpreter in javascript.
+Written by Frederic Peschanski, 
+used by the MOOC « Programmation récursive »
+and npm-ized by Christian Queinnec. ",
+    "module": "index.mjs",
+    "scripts": {
+    },
+    "author": "Frederic Peschanski",
+    "license": "ISC",
+    "files": [
+        "index.mjs",
+        "lib/lexer101.mjs",
+        "lib/parser101.mjs",
+          "lib/schemeNumber101.mjs",
+            "lib/biginteger101.mjs",
+        "lib/prims101.mjs",
+          "type101.mjs",
+        "lib/numericaltower101.mjs",
+        "lib/message101.mjs",
+        "lib/eval101.mjs"
+    ]
+}
