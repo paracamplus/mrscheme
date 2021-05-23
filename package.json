@@ -1,6 +1,6 @@
 {
     "name": "mrscheme",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Scheme didactic subset interpreter in JavaScript.",
     "main": "index.mjs",
     "module": "index.mjs",
