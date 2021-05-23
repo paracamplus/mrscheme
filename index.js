@@ -3,7 +3,7 @@
 const Tokenizer = require("./lib/lexer101.mjs");
 const _parser = require("./lib/parser101.mjs");
 
-export function Parser (prog) {
+function Parser (prog) {
     const lexer = new Tokenizer(prog);
     const parser = new _parser(lexer);
     return parser;
@@ -27,6 +27,7 @@ Message101.Language = 'fr';
 const Evaluator = require("./lib/eval101.mjs");
 
 module.exports = {
+    Parser,
     Evaluator,
     defaultEnvironment
 };
