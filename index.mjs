@@ -1,4 +1,4 @@
-// MrScheme from Frederic Peschanski
+// modular version: MrScheme from Frederic Peschanski
 
 import { Tokenizer } from "./lib/lexer101.mjs";
 import { Parser as _parser} from "./lib/parser101.mjs";

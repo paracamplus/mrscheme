@@ -2,6 +2,7 @@
     "name": "mrscheme",
     "version": "1.0.2",
     "description": "Scheme didactic subset interpreter in JavaScript.",
+    "main": "index.mjs",
     "module": "index.mjs",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -44,5 +45,8 @@
     "bugs": {
         "url": "https://github.com/paracamplus/mrscheme/issues"
     },
-    "homepage": "https://github.com/paracamplus/mrscheme#readme"
+    "homepage": "https://github.com/paracamplus/mrscheme#readme",
+    "dependencies": {
+        "mrscheme": "^1.0.2"
+    }
 }
