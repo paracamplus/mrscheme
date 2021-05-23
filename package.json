@@ -2,7 +2,6 @@
     "name": "mrscheme",
     "version": "1.0.5",
     "description": "Scheme didactic subset interpreter in JavaScript.",
-    "main": "index.js",
     "module": "index.mjs",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
