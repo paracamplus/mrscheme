@@ -27,7 +27,7 @@
     "license": "MIT",
     "files": [
         "index.mjs",
-        "lib/*.mjs",
+        "lib/*.mjs"
     ],
     "repository": {
         "type": "git",
