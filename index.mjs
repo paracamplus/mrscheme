@@ -11,12 +11,15 @@ export function Parser (prog) {
 
 import { defaultPrimsEnv } from "./lib/prims101.mjs";
 import { NumericalTowerLib } from "./lib/numericaltower101.mjs";
+import { TreeLib as _treelib} from "./lib/tree101.mjs";
+export const TreeLib = _treelib;
+import { CanvasLib } from './lib/images101.mjs';
 
 export function defaultEnvironment () {
     const penv = defaultPrimsEnv();
     NumericalTowerLib.installPrimEnv(penv);
-    // TreeLib.installPrimEnv(penv);
-    // CanvasLib.installPrimEnv(penv);
+    TreeLib.installPrimEnv(penv);
+    CanvasLib.installPrimEnv(penv);
     return penv;
 }
 
