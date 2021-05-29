@@ -36,8 +36,5 @@
     "bugs": {
         "url": "https://github.com/paracamplus/mrscheme/issues"
     },
-    "homepage": "https://github.com/paracamplus/mrscheme#readme",
-    "dependencies": {
-        "mrscheme": "^1.0.2"
-    }
+    "homepage": "https://github.com/paracamplus/mrscheme#readme"
 }
